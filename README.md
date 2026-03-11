@@ -5,7 +5,7 @@ Alba Garriga
 
 ## Description
 
-This repository contains R scripts used to analyse the abundance of *Gambierdiscus* and *Fukuyoa* across different depths and sampling campaigns in the Balearic Islands.
+This repository contains R scripts used to analyse the abundance of *Gambierdiscus* and *Fukuyoa* across different depths and sampling campaigns in the Balearic Islands (MA16 and MA17).
 
 The analysis calculates mean abundance and standard deviation per site, campaign and depth, and generates bar plots showing depth distribution patterns.
 
@@ -18,6 +18,17 @@ The dataset includes the following variables:
 - Depth
 - Gamb Abundance (cells·g ww⁻¹)
 - Fuku Abundance (cells·g ww⁻¹)
+
+### Depth distribution plots
+
+Bar plots were generated to visualise the depth distribution of *Gambierdiscus* abundance at each sampling site.
+
+For each site, the mean abundance (cells·g ww⁻¹ wet weight of macrophytes) was calculated per depth and sampling campaign. Error bars represent the standard deviation of the samples within each group.
+
+Depth levels were treated as categorical variables (4, 10, 20 and 30 m). Bars are coloured by sampling campaign to allow comparison between surveys.
+
+The plots were generated using the ggplot2 package in R.
+
 
 ## Repository structure
 
@@ -45,4 +56,4 @@ The analysis requires the following packages:
 - dplyr
 - ggplot2
 
-Install them with:
+
