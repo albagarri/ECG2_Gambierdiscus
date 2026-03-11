@@ -15,7 +15,7 @@ The dataset includes the following variables:
 
 - Site
 - Campaign
-- Depth_m
+- Depth
 - Gamb Abundance (cells·g ww⁻¹)
 - Fuku Abundance (cells·g ww⁻¹)
 
